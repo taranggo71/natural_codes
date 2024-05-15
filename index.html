@@ -7,57 +7,51 @@
 </title>
     </head>
     <body>
-     <form action="#" method="post">
-        <fieldset>
-            <legend>Contact Us</legend>
-            First Name <br>
-            <input type="text"><br>
-            Last Name <br>
-            <input type="text"><br>
-            Contact Number <br>
-            <input type="text"><br>
-            Email Address <br> 
-            <input type="text"><br>
-            Gender:
-            <input type="radio" name="Gender"> Male
-            <input type="radio" name="Gender">Female
-            <input type="radio" name="Gender">Others
-        
-            
-            <h1>Choose Your Country</h1>
-            <select>
-                <option value="Afganstan">Afganstan</option>
-                <option value="Abu Dhabi">Abu Dhabi</option>
-                <option value="Africa">Africa</option>
-                <option value="America">America</option>
-                <option value="Bangladesh">Bangladesh</option>
-                <option value="Belgium">Belgium</option>
-                <option value="Bolivia">Bolivia</option>
-                <option value="Canada">Canada</option>
-                <option value="Central African Republic">Central African Republic</option>
-                <option value="Denmark">Denmark</option>
-                <option value="Democratic Republic of the Congo">Democratic Republic of the Congo</option>
-                <option value="Dominican Republic">Dominican Republic</option>
-                <option value="Ecuador">Ecuador</option>
-                <option value="Egypt">Egypt</option>
-                <option value="Equatorial Guinea">Equatorial Guinea</option>
-                <option value="	France">	France</option>
-                <option value="	Finland">	Finland</option>
-                <option value="Germany">Germany</option>
-                <option value="Georgia">Georgia</option>
-                 <option value="Hong-Kong">Hong-Kong</option>
-            </select>
-            <br><br>
-             <textarea rows="20" cols="50">
-
-             </textarea>
-            </fieldset>
-        </form>
-        
-    
+    <h1 style="text-align: center;">Sign Up Form </h1>
+    <hr>
+    <br>
+    <label for="user">Name:</label> 
+    <input type="text" id="user" name="user" placeholder="Username"> <br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Usermail" required><br>
+    <label for="pass">Password</label>
+    <input type="text" id="pass" name="pass" placeholder="Password" required><br>
+    <label for="phn">Phone Number </label>
+    <select name="code">
+        <option value="+880">+880</option>
+        <option value="+990">+990</option>
+        <option value="+009">+009</option>
+        <option value="+991">+991</option>
+    </select>
+    <input type="text" id="phn" name="phone" placeholder="1234567989"><br>
+    <label for="con">Country</label>
+     
 
 
-            </textarea>
-        </form>
+
+
+    Gender:
+    <input type="radio" id="gnd1" name="gender">
+        <label for="gnd1">Male</label>
+        <input type="radio" id="gnd2" name="gender">
+        <label for="gnd2">Female</label><br>
+    <label for="date">Date Of Birth:</label>
+    <input type="date"  id="date" name="dob"><br>
+    <label for="time">Time</label>
+    <input type="time" id="time" name="time"><br>
+    <label for="color">Colors</label>
+    <input type="color" id="color" name="col"><br>
+    <label for="file">Choose Photo</label>
+    <input type="file" id="file" name="photo" ><br>
+    <input type="checkbox" id="vehicle1" name="vehicle">
+        <label for="vehicle1">I Have A Bike</label>
+        <input type="checkbox" id="vehicle2" name="vehicle">
+        <label for="vehicle2">I Have A Bicycle</label><br>
+    <textarea name="comment" cols="30" rows="8.5"> Comment Here</textarea> <br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+
+
+         
     </body>
 </html>
