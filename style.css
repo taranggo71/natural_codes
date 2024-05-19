@@ -1,13 +1,7 @@
-.p3{
-    border-style: solid;
-    border-color: aqua;
-    border-width: 6px;
-    border-radius: 10px;
-}
-
-#p6{
-    border-width: 4px;
-    border-style: solid;
-    border-color: aqua;
-    border-radius: 10px;
+.sabab{
+   width:600px;
+   height: 725px;
+   background-color: brown;
+   border: 12px solid green;
+   margin: 70px 40px 78px 34px;
 }
